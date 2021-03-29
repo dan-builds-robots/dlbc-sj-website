@@ -1,0 +1,580 @@
+<head>
+
+	<!-- Loading the Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+	<!--Loading the Bootstrap jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	
+	<!-- Loading the Boostrap Javascript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity=
+	"sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	
+	
+	<!-- Loading Google's emojis -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<script src="https://kit.fontawesome.com/17ea7719d4.js" crossorigin="anonymous"></script>
+	
+	<!-- Giving the tab a title -->
+	<title>DLBC SJ</title>
+	
+	<!-- The favicon -->
+	<link rel="icon" href="dlbc_sj_logo2.png">
+	<!--
+			background-image: url("church_folk2.jpg");-->
+			
+		<!--
+			carouselExampleInterval {
+			height: 300px;
+			width: 500px;
+			}
+		-->
+		
+	<style>
+	
+		html {
+			scroll-behavior: smooth;
+		}
+	
+		.jumbotron {
+			background-color: #DFF0F5;
+			align: bottom;
+			min-height: 500px;
+			padding-bottom:150px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		
+		.blur {
+			filter: blur(8px);
+			-webkit-filter: blur(8px);
+		}
+	
+		#inputEmailBox {
+			width: 305px;
+		}
+		
+		#inputEmail {
+			width: 300px;
+		}
+		
+		.card-img-top {
+			width: 100%;
+		}
+		
+		.card {
+		}
+		
+		
+		#footer {
+			background-image: linear-gradient(to bottom right, #ECF4FF, lightblue);
+			padding-top: 50px;
+			margin-top: 80px;
+			padding-bottom: 40px;
+			text-align: center;
+			align: center;
+		}
+		
+		#black {
+		}
+		
+		
+		#welcome{
+		
+			background-color: #FBFBFB;
+			padding-bottom: 40px;
+			text-align: center;
+			align: center;
+			max-width: 100%;
+			height: auto;
+			
+		}
+		
+		
+		#google_play {
+		
+			width: 300px;
+			text-align: center;
+			align: center;
+		
+		}
+		
+		<!--font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;-->
+		body {
+		
+			position: relative;
+			
+			
+
+		}
+		
+		.parallax {
+			background-image: url("church_pic.jpg");
+			min-height: 360px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			text-color: white;
+			align: center;
+		}
+		
+		#parallax {
+			min-height: 360px;
+			padding-top: 50px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			color: white;
+			padding-bottom: 40px;
+			text-align: center;
+			align: center;
+			background: rgba(0, 0, 0, .25);
+			
+		}
+		
+		.prettytext {
+			width: 800px;
+		}
+		
+		.center {
+			text-align: center;
+			align: center;
+		}
+		
+		.space-out {
+			padding-top: 10px;
+			padding-bottom: 20px;
+		}
+		
+		.space-out2 {
+			padding-top: 0px;
+			padding-bottom: 10px;
+		}
+		
+		.line-spacing {
+			line-height: 1.8;
+		}
+		
+		.line-spacingt {
+			line-height: 0;
+		}
+				
+		#service-hours {
+			background-image: linear-gradient(to bottom right, #CCEAF0, #CCEAF0);
+			padding-top: 30px;
+			padding-bottom: 30px;
+			text-align: center;
+			align: center;
+		}
+				
+		#bar {
+			margin-top: 0px;
+			background-image: linear-gradient(to bottom right, #BCE0E8, #BCE0E8);
+			padding-top: 30px;
+			padding-bottom: 30px;
+			text-align: center;
+			align: center;
+		}
+		
+				
+		#service-hours-text {
+			background-image: linear-gradient(to bottom right, #F0FCFF, #F0FCFF);
+			padding-top: 50px;
+			padding-bottom: 130px;
+			text-align: center;
+			align: center;
+		}
+		
+		#carouselExampleInterval {
+			height: 300px;
+			width: 500px;
+		}
+		
+		.column2 {
+			width:50%;
+		}
+		
+		.less {
+			width:40%;
+		}
+		
+		.more {
+			width:60%;
+		}
+		
+		.center2 {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#bulletin-board {
+			margin-top: 50px;
+		}
+		
+		.icon {
+			margin-left: 6px;
+		}
+		
+		.icon2 {
+			margin-right: 6px;
+		}
+		
+		.text-format {
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+		
+		
+		.statement-text-format {
+			padding-left: 17%;
+			padding-right: 17%;
+		}
+		
+		.card {
+		}
+		
+		.board-pic {
+			clip:rect(0px,20px,20px,0px);
+		}
+		
+		.column3 {
+			width: 350px;
+			align: center;
+		}
+
+
+		@media (max-width: 200px) {
+			.card {
+				width: 150%;
+				display: block;
+				margin-bottom: 20px;
+			}
+			.card-body {
+				width: 100%;
+				display: block;
+				margin-bottom: 20px;
+			}
+		}
+		
+		#pavement-row {
+			padding-top: 15px;
+			padding-bottom: 55px;
+			background-image: linear-gradient(to bottom, rgba(255, 216, 110, .25), rgba(255, 216, 110, .75));
+			align: center;
+			text-align: center;
+		}
+		
+		
+		#pavement-row video {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		
+		.side {
+			left-padding: 0px;
+			left-margin: 0px;
+		}
+		
+		.holder {
+			display: flex;
+			left-padding: 0px;
+			left-margin: 0px;
+		}
+		
+	</style>
+	
+
+</head>
+
+<body >
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<!--
+<img class="icon2" href="index.html" src="dlbc_sj_logo.png" width="30" height="30">
+-->
+
+<a href="index.html"><img class="icon2" src="dlbc_sj_logo.png" width="30" height="30"></a>
+
+  <a class="navbar-brand" href="index.html">DLBC South Jersey</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+	
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="#mission-statement">Mission Statement</a>
+      </li>
+	  
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="#service-hours">Service Hours</a>
+      </li>
+	 
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="#bulletin-board">Bulletin Board</a>
+      </li>
+	  
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.google.com/maps/dir//Deeper+Life+Bible+Church+Atco,+NJ+08004/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c12c2f5a4226cb:0x9ed4ac91de7bdd41?sa=X&ved=2ahUKEwio5PTf2f7sAhUDvVkKHa-lAv4Q9RcwF3oECBMQAw" target="popup">Get Directions</a>
+      </li>
+	  
+	  <!--
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Pay Tithe / Offering</a>
+      </li>
+	  -->
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="dlbcsj_gallery.html">Gallery</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">Contact Us</a>
+      </li>
+	  
+	  <!--
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Install</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=daniel.ajayi.teddythedepressionfighter" target="popup">Android</a>
+          <a class="dropdown-item disabled" href="#">IOS (Coming soon!)</a>
+        </div>
+      </li>
+	  -->
+    </ul>
+	
+	<div class="holder">	
+	<ul class="navbar-nav right side">
+	<a class="line-spacingt icon" href="https://www.youtube.com/channel/UCVF7EkinbV1qlGK6MuDtxig?sub_confirmation=1" target="popup"><img class="icon" src="yt-logo.png" width="25" height="25"></a>
+	</ul>
+	
+	<ul class="navbar-nav right side">
+	<a class="line-spacingt icon" href="dlbcsj_gallery.html"target="popup"><img class="icon" src="fb-logo3.png" width="25" height="25"></a>
+    </ul>
+	</div>	
+
+<!--
+	<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="name" placeholder="Username" aria-label="Search">
+	  <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Password</button>
+    </form>
+
+-->
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron" id="home">
+
+	<div class="row">
+	<div class="column2 center2">
+	  <h1 class="display-4"><img src="dlbc_sj_logo.png" width="70px" height="70px">   <strong>Deeper Life Bible Church SJ</strong></h1>
+	  <br>
+	  <p class="lead">"Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God. - 1 John 4:7"</p>
+	</div>
+	
+	<div class="columnn2 center2">
+		<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+			<div class="carousel-item active" data-interval="5000">
+			  <img src="pic1.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item" data-interval="5000">
+			  <img src="pic2.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item" data-interval="5000">
+			  <img src="pic3.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item" data-interval="5000">
+			  <img src="pic4.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item" data-interval="5000">
+			  <img src="pastors_family.jpeg" class="d-block w-100" alt="...">
+			</div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		  
+		<div class="space-out2"></div><div class="center">
+		<a  href="dlbcsj_gallery.html"><font color="black">See full gallery</font></a>
+		</div>
+		<div class="space-out"></div>
+		
+		
+		</div>
+	</div>
+	</div>
+
+</div>
+
+
+
+<!-- Mission Statement -->
+<div id="mission-statement">
+	<div class="parallax">
+		<div id="parallax">
+			<div class="statement-text-format">
+				<br>
+				<br>
+				<h1><strong>OUR MISSION STATEMENT</strong></h1>
+				<br>
+				<h4><i>Welcome to DLBC SJ, a family where everyone is welcome and loved. We hope that through 
+				attending our services, you will find yourself spiritually rejuvenated.</i></h4>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Greeting vid / service hours-->
+<div class="row center2">
+	<!-- Welcome video-->
+	<div class="more center2" id="welcome">
+	<div id="bar" >
+		<h2>Pastor's Greeting <i class="fas fa-church"></i></h2>
+	</div>
+		<br>
+		<br>
+		
+		<!--width="560" height="315"  object-fit: cover; width: 100%; height: 250px;-->
+		<iframe width="70%" height="65%" src="https://www.youtube.com/embed/Bzb6h57lc5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	
+	<div class="less center2">
+		<!-- service hours -->
+		<div id="service-hours" >
+
+			<div class="column line-spacing"> <div id="black">
+			
+				<h2>SERVICE HOURS <i class="fas fa-calendar-alt"></i></h2>
+			</div>
+			</div>
+			
+		</div>
+
+		<!-- service hours -->
+		<div id="service-hours-text" >
+
+			<div class="column line-spacing"> <div id="black">
+				<div  class="text-format">
+				<h5>Note: All services are held via zoom. Sundays are available in-person and via zoom.</h5>
+				</div>
+				<br>
+				<p class="line-spacing">Sunday Service: 9am - 12pm</p>
+				<p class="line-spacing">Tuesday Bible Study: 7pm</p>
+				<p class="line-spacing">Friday Revival Hour: 7pm</p>
+				<a class="line-spacingt" href= "https://us02web.zoom.us/j/8248971738" target="popup"><img class="icon" src="zoom_logo4.png" width="55" height="55"></a>
+				<!--629, 399-->
+				<p class="line-spacing">(Click to join the zoom)</p>
+				<br>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Cards -->
+<div id="bulletin-board"></div>
+	<div class="center space-out">
+	<h2>Bulletin Board</h2>
+	</div>
+	
+<div class="container" id = "about">
+	
+<div class="row row-cols-1 row-cols-md-3">
+
+	<div class="col mb-4">
+  <div class="card h-100">
+    <img src="van2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><i class="fas fa-star"></i>  Church Van</h5>
+      <p class="card-text">North Star has arrived!</p>
+      <!--
+	  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> 
+	  -->
+    </div>
+  </div>
+  </div>
+  
+	<div class="col mb-4">
+  <div class="card h-100">
+    <img src="church_pic.jpg" class="card-img-top" alt="...">
+	
+    <div class="card-body">
+      <h5 class="card-title"><i class="fas fa-church"></i>  Pavement in Progress</h5>
+      <p class="card-text">God helping us, our next goal is to pave the surroundings of the church.</p>
+	  
+	  <!--Set the frequency with which Teddy sends you a positive message notification. You can always get one instantly by clicking the "Generate Message" button.-->
+      <!--
+	  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> 
+	  -->
+    </div>
+  </div>
+  </div>
+  <div class="col mb-4">
+  <div class="card h-100">
+    <img src="pic1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><i class="fas fa-smile-beam"></i>  Smile</h5>
+      <p class="card-text">Everyone say cheese!</p>
+      <!--
+	  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> 
+	  -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<!-- Map --> <!--
+<iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d6134.756533826419!2d-74.8896817!3d39.7536147!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89c12c2f5a4226cb%3A0x9ed4ac91de7bdd41!2sDeeper%20Life%20Bible%20Church%20Atco%2C%20NJ%2008004!3m2!1d39.751322099999996!2d-74.88070549999999!5e0!3m2!1sen!2sus!4v1605272962105!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+-->
+<br>
+<br>
+<br>
+
+
+<div id="footer" >
+
+	<div class="column line-spacing"> <div id="black">
+	
+		<h2>Contact Us.</h2>
+		
+		<a href="https://www.google.com/maps/dir//Deeper+Life+Bible+Church+Atco,+NJ+08004/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c12c2f5a4226cb:0x9ed4ac91de7bdd41?sa=X&ved=2ahUKEwio5PTf2f7sAhUDvVkKHa-lAv4Q9RcwF3oECBMQAw" target="popup" style="color:#000000;">688 White Horse Pike, Atco, NJ 08004</a>
+		<a href = "mailto: dlbcsj@gmail.com"><p class="line-spacing" target="popup" style="color:#000000;">dlbcsj@gmail.com</p></a>
+		<a href="tel:8565532755"><p class="line-spacingt" target="popup" style="color:#000000;">(856)553-2755</p></a>
+		<a href="tel:8567673548"><p class="line-spacing" target="popup" style="color:#000000;">(856)767-3548</p></a>
+		<p></p>
+		<a class="line-spacingt" href="https://www.facebook.com/pages/category/Church/Deeper-Life-Bible-Church-Waterford-2306790366264825/" target="popup"><img class="icon" src="fb-logo3.png" width="25" height="25"></a>
+		
+	</div>
+	</div>
+	
+</div>
+
+</body>

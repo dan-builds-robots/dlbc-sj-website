@@ -1,0 +1,567 @@
+<head>
+
+	<!-- Loading the Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+	<!--Loading the Bootstrap jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	
+	<!-- Loading the Boostrap Javascript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity=
+	"sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	
+	
+	<!-- Loading Google's emojis -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<script src="https://kit.fontawesome.com/17ea7719d4.js" crossorigin="anonymous"></script>
+	
+	<!-- Giving the tab a title -->
+	<title>DLBC SJ - Gallery</title>
+	
+	<!-- The favicon -->
+	<link rel="icon" href="dlbc_sj_logo2.png">
+	<!--
+			background-image: url("church_folk2.jpg");-->
+			
+		<!--
+			carouselExampleInterval {
+			height: 300px;
+			width: 500px;
+			}
+		-->
+		
+	<style>
+	
+		.jumbotron {
+			background-color: #DFF0F5;
+			align: bottom;
+			min-height: 500px;
+			padding-bottom:100px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		
+		.blur {
+			filter: blur(8px);
+			-webkit-filter: blur(8px);
+		}
+	
+		#inputEmailBox {
+			width: 305px;
+		}
+		
+		#inputEmail {
+			width: 300px;
+		}
+		
+		.card-img-top {
+			width: 100%;
+		}
+		
+		.card {
+		}
+		
+		
+		#footer {
+			background-image: linear-gradient(to bottom right, #ECF4FF, lightblue);
+			padding-top: 50px;
+			margin-top: 80px;
+			padding-bottom: 40px;
+			text-align: center;
+			align: center;
+		}
+		
+		#black {
+		}
+		
+		
+		#welcome{
+		
+			background-color: #FBFBFB;
+			padding-bottom: 40px;
+			text-align: center;
+			align: center;
+			max-width: 100%;
+			height: auto;
+			
+		}
+		
+		
+		#google_play {
+		
+			width: 300px;
+			text-align: center;
+			align: center;
+		
+		}
+		
+		<!--font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;-->
+		body {
+		
+			position: relative;
+			
+			
+
+		}
+		
+		.parallax {
+  
+			background-image: url("church_pic.jpg");
+			min-height: 360px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			text-color: white;
+			align: center;
+			
+		}
+		
+		#parallax {
+			min-height: 360px;
+			padding-top: 50px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			color: white;
+			padding-bottom: 40px;
+			text-align: center;
+			align: center;
+			background: rgba(0, 0, 0, .25);
+			
+		}
+		
+		.prettytext {
+			width: 800px;
+		}
+		
+		.center {
+			text-align: center;
+			align: center;
+		}
+		
+		.space-out {
+			padding-top: 10px;
+			padding-bottom: 20px;
+		}
+		
+		.line-spacing {
+			line-height: 1.8;
+		}
+		
+		.line-spacingt {
+			line-height: 0;
+		}
+				
+		#service-hours {
+			background-image: linear-gradient(to bottom right, #CCEAF0, #CCEAF0);
+			padding-top: 30px;
+			padding-bottom: 30px;
+			text-align: center;
+			align: center;
+		}
+				
+		#bar {
+			margin-top: 0px;
+			background-image: linear-gradient(to bottom right, #BCE0E8, #BCE0E8);
+			padding-top: 30px;
+			padding-bottom: 30px;
+			text-align: center;
+			align: center;
+		}
+		
+				
+		#service-hours-text {
+			background-image: linear-gradient(to bottom right, #F0FCFF, #F0FCFF);
+			padding-top: 50px;
+			padding-bottom: 130px;
+			text-align: center;
+			align: center;
+		}
+		
+		#carouselExampleInterval {
+			height: 300px;
+			width: 500px;
+		}
+		
+		.column2 {
+			width:50%;
+		}
+		
+		.less {
+			width:40%;
+		}
+		
+		.more {
+			width:60%;
+		}
+		
+		.center2 {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#bulletin-board {
+			margin-top: 50px;
+		}
+		
+		.icon {
+			margin-left: 6px;
+		}
+		
+		.icon2 {
+			margin-right: 6px;
+		}
+		
+		.text-format {
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+		
+		
+		.statement-text-format {
+			padding-left: 17%;
+			padding-right: 17%;
+		}
+		
+		.card {
+		}
+		
+		.board-pic {
+			clip:rect(0px,20px,20px,0px);
+		}
+		
+		.column3 {
+			width: 350px;
+			align: center;
+		}
+
+
+		@media (max-width: 200px) {
+			.card {
+				width: 150%;
+				display: block;
+				margin-bottom: 20px;
+			}
+			.card-body {
+				width: 100%;
+				display: block;
+				margin-bottom: 20px;
+			}
+		}
+		
+		.row3 {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		  display: flex;
+		  flex-wrap: wrap;
+		  padding: 0 4px;
+		}
+
+		.column3 {
+		  flex: 25%;
+		  max-width: 25%;
+		  padding: 0 4px;
+		}
+
+		.column3 img {
+		  margin-top: 8px;
+		  vertical-align: middle;
+		  width: 100%;
+		}
+		
+		@media screen and (max-width: 600px) {
+		  .column3 {
+			flex: 100%;
+			max-width: 100%;
+		  }
+		}
+		
+		@media screen and (max-width: 800px) {
+		  .column3 {
+			flex: 50%;
+			max-width: 50%;
+		  }
+		}
+		
+		#gallery {
+			margin: bottom: 50px;
+		}
+		
+		#gallery-text {
+			margin-top: 80px;
+			margin-bottom: 30px;
+		}
+		
+		.clickable-imgs {
+			cursor: pointer;
+			transition: 0.3s;
+		}
+		
+		.clickable-imgs:hover {
+			opacity: 0.7;
+		}
+		
+		.modal {
+			display: none;
+			position: fixed;
+			z-index: 1;
+			padding-top: 100px;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			background-color: rgb(0,0,0);
+			background-color: rgba(0,0,0,0.9);
+		}
+
+		.modal-content {
+			margin: auto;
+			display: block;
+			width: 80%;
+			max-width: 700px;
+		}
+		
+		.modal-content, #caption {
+			animation-name: zoom;
+			animation-duration: 0.6s;
+		}
+
+		@keyframes zoom {
+			 from {transform:scale(0)}
+			 to {transform:scale(1)}
+		}
+
+		.close {
+			position: absolute;
+			top: 15px;
+			right: 35px;
+			color: #f1f1f1;
+			font-size: 40px;
+			font-weight: bold;
+			transition: 0.3s;
+		}
+
+		.close:hover,
+		.close:focus {
+			color: #bbb;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		@media only screen and (max-width: 700px){
+		  .modal-content {
+			width: 100%;
+		  }
+		}
+
+	</style>
+	
+
+</head>
+
+<body >
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--
+<img class="icon2" href="index.html" src="dlbc_sj_logo.png" width="30" height="30">
+-->
+
+<a href="index.html"><img class="icon2" src="dlbc_sj_logo.png" width="30" height="30"></a>
+
+  <a class="navbar-brand" href="index.html">DLBC South Jersey</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+	
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#mission-statement">Mission Statement</a>
+      </li>
+	  
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#service-hours">Service Hours</a>
+      </li>
+	 
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#bulletin-board">Bulletin Board</a>
+      </li>
+	  
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.google.com/maps/dir//Deeper+Life+Bible+Church+Atco,+NJ+08004/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c12c2f5a4226cb:0x9ed4ac91de7bdd41?sa=X&ved=2ahUKEwio5PTf2f7sAhUDvVkKHa-lAv4Q9RcwF3oECBMQAw" target="popup">Get Directions</a>
+      </li>
+	  
+	  <!--
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Pay Tithe / Offering</a>
+      </li>
+	  -->
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Gallery</a>
+      </li>
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#footer">Contact Us</a>
+      </li>
+      
+	  <!--
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Install</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=daniel.ajayi.teddythedepressionfighter" target="popup">Android</a>
+          <a class="dropdown-item disabled" href="#">IOS (Coming soon!)</a>
+        </div>
+      </li>
+	  -->
+    </ul>
+	
+			
+	<ul class="navbar-nav right">
+	<a class="line-spacingt icon" href="https://www.youtube.com/channel/UCVF7EkinbV1qlGK6MuDtxig?sub_confirmation=1" target="popup"><img class="icon" src="yt-logo.png" width="25" height="25"></a>
+	</ul>
+	
+	<ul class="navbar-nav right">
+	<a class="line-spacingt icon" href="https://www.facebook.com/pages/category/Church/Deeper-Life-Bible-Church-Waterford-2306790366264825/" target="popup"><img class="icon" src="fb-logo3.png" width="25" height="25"></a>
+    </ul>
+
+<!--
+	<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="name" placeholder="Username" aria-label="Search">
+	  <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Password</button>
+    </form>
+
+-->
+  </div>
+</nav>
+
+<div class="center" id="gallery-text">
+<h1><img src="dlbc_sj_logo.png" width="70px" height="70px"> DLBC SJ Gallery</h1>
+</div>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+
+<div id="gallery">
+<div class="row3">
+  <div class="column3">
+	<img src="youth.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="people10.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="people3.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="people4.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="josh.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="pastors_family.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="smiles2.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="choir.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+  </div>gm
+  <div class="column3">
+    <img src="tj2.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="orchestra2.jpg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="pic2.jpg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="pic3.jpg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="pic1.jpg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="old_gathering.jpg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="tj3.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="audience3.jpg" class="clickable-imgs" onclick="myFunction(this);">
+  </div>
+  <div class="column3">
+    <img src="people8.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="pastor.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="original_crew.jpg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="pastor.jpg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="people5.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="pastors_wife.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="old11.jpg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="youth2.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+  </div>
+  
+  <div class="column3">
+    <img src="people9.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="people7.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="people6.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="orchestra2.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="instruments.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="people2.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="choir1.jpg" class="clickable-imgs" onclick="myFunction(this);">
+    <img src="reign.jpeg" class="clickable-imgs" onclick="myFunction(this);">
+  </div>
+</div>
+</div>
+
+    
+
+<!-- Map --> <!--
+<iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d6134.756533826419!2d-74.8896817!3d39.7536147!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89c12c2f5a4226cb%3A0x9ed4ac91de7bdd41!2sDeeper%20Life%20Bible%20Church%20Atco%2C%20NJ%2008004!3m2!1d39.751322099999996!2d-74.88070549999999!5e0!3m2!1sen!2sus!4v1605272962105!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+-->
+
+<div id="footer" >
+
+	<div class="column line-spacing"> <div id="black">
+	
+		<h2>Contact Us.</h2>
+		
+		<a href="https://www.google.com/maps/dir//Deeper+Life+Bible+Church+Atco,+NJ+08004/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c12c2f5a4226cb:0x9ed4ac91de7bdd41?sa=X&ved=2ahUKEwio5PTf2f7sAhUDvVkKHa-lAv4Q9RcwF3oECBMQAw" target="popup" style="color:#000000;">688 White Horse Pike, Atco, NJ 08004</a>
+		<a href = "mailto: dlbcsj@gmail.com"><p class="line-spacing" target="popup" style="color:#000000;">dlbcsj@gmail.com</p></a>
+		<a href="tel:8565532755"><p class="line-spacingt" target="popup" style="color:#000000;">(856)553-2755</p></a>
+		<a href="tel:8567673548"><p class="line-spacing" target="popup" style="color:#000000;">(856)767-3548</p></a>
+		<p></p>
+		<a class="line-spacingt" href="https://www.facebook.com/pages/category/Church/Deeper-Life-Bible-Church-Waterford-2306790366264825/" target="popup"><img class="icon" src="fb-logo3.png" width="25" height="25"></a>
+		
+	</div>
+	</div>
+	
+</div>
+
+<script>
+
+	// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+function myFunction(img) {
+  modal.style.display = "block";
+  modalImg.src = img.src;
+  captionText.innerHTML = img.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+</script>
+
+</body>
